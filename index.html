@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To do List</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <main class="main">
+      <div class="container">
+        <h2>To do list</h2>
+        <div class="input-group">
+          <input
+            type="text"
+            id="text-input-field"
+            autofocus
+            placeholder="Add task here..."
+          />
+          <button id="add-button" type="button">
+            <img src="add.svg" alt="add" />
+          </button>
+        </div>
+        <!-- input-group end -->
+        <div class="todos-container"></div>
+        <!-- todos-container end -->
+      </div>
+      <!-- container end -->
+    </main>
+
+    <!-- JAVASCRIPT -->
+    <script src="app.js"></script>
+  </body>
+</html>
